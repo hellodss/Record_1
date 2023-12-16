@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>319</width>
+    <height>411</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QFrame#Frame {border-image: url(:/1.jpg);}
+QPushButton { 
+    /* 前景色 */  
+    color:red;  
+
+    /* 背景色 */  
+    background-color:rgb(0, 85, 127);  
+
+    /* 边框风格 */  
+    border-style:outset;  
+
+    /* 边框宽度 */  
+    border-width:2px;  
+
+    /* 边框颜色 */  
+    border-color:rgb(10,45,110);  
+
+    /* 边框倒角 */  
+    border-radius:10px;  
+
+    /* 字体 */  
+    font:bold 12px;  
+
+    /* 内边距 */  
+    padding:4px;  
+}  </string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QFrame" name="Frame">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPlainTextEdit" name="plainTextEdit">
+          <property name="maximumSize">
+           <size>
+            <width>411</width>
+            <height>131</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QRadioButton" name="Normal">
+            <property name="text">
+             <string>普通计算器</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="Faction">
+            <property name="text">
+             <string>分数计算器</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="Age">
+            <property name="text">
+             <string>年龄计算器</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="Space">
+            <property name="text">
+             <string>面积计算器</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QPushButton" name="left">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>left</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="right">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>right</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QPushButton" name="backspace">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>backspace</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3">
+         <widget class="QPushButton" name="AC">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>AC</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QPushButton" name="num7">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>7</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="num8">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>8</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QPushButton" name="num9">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>9</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QPushButton" name="chu">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>/</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QPushButton" name="num4">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QPushButton" name="num5">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>5</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QPushButton" name="num6">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>6</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="3">
+         <widget class="QPushButton" name="cheng">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>*</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="num1">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QPushButton" name="num2">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QPushButton" name="num3">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="3">
+         <widget class="QPushButton" name="jian">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>-</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QPushButton" name="num0">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QPushButton" name="num10">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="2">
+         <widget class="QPushButton" name="deng">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>=</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="3">
+         <widget class="QPushButton" name="jia">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>+</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
